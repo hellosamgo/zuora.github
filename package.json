@@ -1,0 +1,17 @@
+{
+  "name": "zuora",
+  "version": "0.0.0",
+  "description": "some ajax stuff",
+  "main": "zuora.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sam go",
+  "license": "ISC",
+  "dependencies": {
+    "request": "2.x.x"
+  },
+  "scripts": {
+    "start": "node zuora.js"
+  }
+}
