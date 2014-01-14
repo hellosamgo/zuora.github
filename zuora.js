@@ -40,8 +40,8 @@ var getAccount = function(cookie, accountId, callback) {
 }
 
 var accounts = [];
-for (var i = 1; i < 100000; i++) {
-    accounts.push(i)
+for (var i = 50000; i < 50020; i++) {
+    accounts.push(i)}df
 
 makeConnection(function(cookie){
   for (var i = 0; i < accounts.length; i++) {
