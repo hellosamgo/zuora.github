@@ -39,7 +39,9 @@ var getAccount = function(cookie, accountId, callback) {
   });
 }
 
-var accounts = ['52336', '37393', '16698']
+var accounts = [];
+for (var i = 1; i < 100000; i++) {
+    accounts.push(i)
 
 makeConnection(function(cookie){
   for (var i = 0; i < accounts.length; i++) {
